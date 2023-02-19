@@ -1,4 +1,4 @@
-# investment-app
+# eins-kk
 
 ※ 基本的にこの README は開発に関連するリンクを記載するのみに留める
 → 詳細な記載は Notion にて!
