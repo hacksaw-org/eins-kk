@@ -1,0 +1,21 @@
+{
+  "name": "eins-kk-workspace",
+  "dockerComposeFile": [
+    "../docker-compose.yml",
+    "docker-compose.yml"
+  ],
+  "service": "backend",
+  "workspaceFolder": "/workspaces/eins-kk",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "denoland.vscode-deno",
+        "christian-kohler.path-intellisense",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "donjayamanne.githistory",
+        "asciidoctor.asciidoctor-vscode"
+      ]
+    }
+  }
+}
