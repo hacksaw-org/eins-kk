@@ -1,8 +1,16 @@
 {
   "version": "2",
-  "remote": {},
+  "remote": {
+    "https://deno.land/std@0.170.0/_util/asserts.ts": "d0844e9b62510f89ce1f9878b046f6a57bf88f208a10304aab50efcb48365272",
+    "https://deno.land/std@0.170.0/encoding/csv.ts": "13adca08c30da6330dfcf35760630c9006a1ee17fe1887f12557255fd1bf08d0",
+    "https://deno.land/std@0.170.0/encoding/csv/_io.ts": "885a8663352d494b984fd9f91605c3dd8831cc2def0d1a3feadb53eb469458c4",
+    "https://deno.land/std@0.170.0/encoding/csv/_parser.ts": "dd44e1e6758984fb4aa1c34f8fb6e7db6b8eb4a2e1527d73db6d3b073576131e",
+    "https://deno.land/std@0.177.0/node/fs.ts": "de13cb511655b594157b327cd11bb833cc96051409f34148f043e8a8a92d66a1",
+    "https://deno.land/std@0.177.0/node/fs/promises.ts": "5db686797cec9a6bc7b1460beb7e049ada81a43bbc0ff8231a26442261ec3fd0"
+  },
   "npm": {
     "specifiers": {
+      "csv-parse": "csv-parse@5.3.6",
       "yahoo-finance2@2.3.10": "yahoo-finance2@2.3.10_ajv@8.10.0"
     },
     "packages": {
@@ -20,6 +28,10 @@
           "require-from-string": "require-from-string@2.0.2",
           "uri-js": "uri-js@4.4.1"
         }
+      },
+      "csv-parse@5.3.6": {
+        "integrity": "sha512-WI330GjCuEioK/ii8HM2YE/eV+ynpeLvU+RXw4R8bRU8R0laK5zO3fDsc4gH8s472e3Ga38rbIjCAiQh+tEHkw==",
+        "dependencies": {}
       },
       "fast-deep-equal@3.1.3": {
         "integrity": "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==",
