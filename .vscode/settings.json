@@ -2,7 +2,8 @@
   "deno.enable": true, // 自動補完や定義元へのジャンプなど可能にする
   "deno.lint": true,
   "deno.unstable": true,
-  "deno.cache": "./deno",
+  "deno.cache": "./deno-dir",
+  "deno.importMap": "./import_map.json",
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "denoland.vscode-deno",
+  "editor.defaultFormatter": "denoland.vscode-deno"
 }
