@@ -3,6 +3,6 @@
     "test": "RUST_BACKTRACE=1 deno test --allow-env --allow-read",
     "typecheck": "deno check mod.ts",
     "check": "deno fmt --check && deno lint",
-    "run": "deno run --allow-env --allow-read --allow-net"
+    "run": "deno run --allow-env --allow-read --allow-net --import-map ./import_map.json"
   }
 }
