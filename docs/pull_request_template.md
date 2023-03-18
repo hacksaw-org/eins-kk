@@ -1,7 +1,7 @@
-### issue
+## issue
 
-<!-- 下記にissueを埋め込む　(ex. #1) -->
-
+<!-- 下記にissueを埋め込む　(ex. Closes #1) -->
+Closes 
 
 
 
